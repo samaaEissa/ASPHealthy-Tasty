@@ -1,0 +1,924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11F8A59B-7C71-49C4-AA39-C76DCABAF763}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HealthyAndTestyPresentation</RootNamespace>
+    <AssemblyName>HealthyAndTestyPresentation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.4.1\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.3.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutTeam.aspx" />
+    <Content Include="AboutUs.aspx" />
+    <Content Include="AddDiet.aspx" />
+    <Content Include="AddMeal.aspx" />
+    <Content Include="Content\all.css" />
+    <Content Include="Content\all.min.css" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\brands.css" />
+    <Content Include="Content\brands.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\lightbox.css" />
+    <Content Include="Content\popuo-box.css" />
+    <Content Include="Content\regular.css" />
+    <Content Include="Content\regular.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\solid.css" />
+    <Content Include="Content\solid.min.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\zoomslider.css" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\ab.jpg" />
+    <Content Include="images\abb.jpg" />
+    <Content Include="images\admin.jpg" />
+    <Content Include="images\b.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\d.jpg" />
+    <Content Include="images\DR1.jpg" />
+    <Content Include="images\DR2.jpg" />
+    <Content Include="images\DR3.jpg" />
+    <Content Include="images\DR4.jpg" />
+    <Content Include="images\f.jpg" />
+    <Content Include="images\f1.jpg" />
+    <Content Include="images\f2.jpg" />
+    <Content Include="images\f3.jpg" />
+    <Content Include="images\f4.jpg" />
+    <Content Include="images\face.jpg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\g.jpg" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g5.jpg" />
+    <Content Include="images\g6.jpg" />
+    <Content Include="images\g7.jpg" />
+    <Content Include="images\g8.jpeg" />
+    <Content Include="images\g9.jpg" />
+    <Content Include="images\gg.jpg" />
+    <Content Include="images\google.jpg" />
+    <Content Include="images\grape.png" />
+    <Content Include="images\in.jpg" />
+    <Content Include="images\instgram.png" />
+    <Content Include="images\lo.png" />
+    <Content Include="images\m.jpg" />
+    <Content Include="images\man.jpg" />
+    <Content Include="images\message.jpg" />
+    <Content Include="images\MobiriseSetup.exe" />
+    <Content Include="images\move-top.png" />
+    <Content Include="images\n1.jpg" />
+    <Content Include="images\n3.jpg" />
+    <Content Include="images\next.png" />
+    <Content Include="images\play-button.png" />
+    <Content Include="images\pp.jpg" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\sp1.jpg" />
+    <Content Include="images\sp2.jpg" />
+    <Content Include="images\sp3.jpg" />
+    <Content Include="images\sp4.jpg" />
+    <Content Include="images\st.jpg" />
+    <Content Include="images\stt.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\t4.jpg" />
+    <Content Include="images\tick.png" />
+    <Content Include="images\twitter.jpg" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\w.jpg" />
+    <Content Include="images\wifi.jpg" />
+    <Content Include="images\z.jpg" />
+    <Content Include="Meanue.aspx" />
+    <Content Include="Registeration.aspx" />
+    <Content Include="style.css" />
+    <Content Include="Content\svg-with-js.css" />
+    <Content Include="Content\svg-with-js.min.css" />
+    <Content Include="Content\v4-shims.css" />
+    <Content Include="Content\v4-shims.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\address-book.svg" />
+    <Content Include="fonts\address-card.svg" />
+    <Content Include="fonts\angry.svg" />
+    <Content Include="fonts\arrow-alt-circle-down.svg" />
+    <Content Include="fonts\arrow-alt-circle-left.svg" />
+    <Content Include="fonts\arrow-alt-circle-right.svg" />
+    <Content Include="fonts\arrow-alt-circle-up.svg" />
+    <Content Include="fonts\bell-slash.svg" />
+    <Content Include="fonts\bell.svg" />
+    <Content Include="fonts\bookmark.svg" />
+    <Content Include="fonts\building.svg" />
+    <Content Include="fonts\calendar-alt.svg" />
+    <Content Include="fonts\calendar-check.svg" />
+    <Content Include="fonts\calendar-minus.svg" />
+    <Content Include="fonts\calendar-plus.svg" />
+    <Content Include="fonts\calendar-times.svg" />
+    <Content Include="fonts\calendar.svg" />
+    <Content Include="fonts\caret-square-down.svg" />
+    <Content Include="fonts\caret-square-left.svg" />
+    <Content Include="fonts\caret-square-right.svg" />
+    <Content Include="fonts\caret-square-up.svg" />
+    <Content Include="fonts\chart-bar.svg" />
+    <Content Include="fonts\check-circle.svg" />
+    <Content Include="fonts\check-square.svg" />
+    <Content Include="fonts\circle.svg" />
+    <Content Include="fonts\clipboard.svg" />
+    <Content Include="fonts\clock.svg" />
+    <Content Include="fonts\clone.svg" />
+    <Content Include="fonts\closed-captioning.svg" />
+    <Content Include="fonts\comment-alt.svg" />
+    <Content Include="fonts\comment-dots.svg" />
+    <Content Include="fonts\comment.svg" />
+    <Content Include="fonts\comments.svg" />
+    <Content Include="fonts\compass.svg" />
+    <Content Include="fonts\copy.svg" />
+    <Content Include="fonts\copyright.svg" />
+    <Content Include="fonts\credit-card.svg" />
+    <Content Include="fonts\dizzy.svg" />
+    <Content Include="fonts\dot-circle.svg" />
+    <Content Include="fonts\edit.svg" />
+    <Content Include="fonts\envelope-open.svg" />
+    <Content Include="fonts\envelope.svg" />
+    <Content Include="fonts\eye-slash.svg" />
+    <Content Include="fonts\eye.svg" />
+    <Content Include="fonts\file-alt.svg" />
+    <Content Include="fonts\file-archive.svg" />
+    <Content Include="fonts\file-audio.svg" />
+    <Content Include="fonts\file-code.svg" />
+    <Content Include="fonts\file-excel.svg" />
+    <Content Include="fonts\file-image.svg" />
+    <Content Include="fonts\file-pdf.svg" />
+    <Content Include="fonts\file-powerpoint.svg" />
+    <Content Include="fonts\file-video.svg" />
+    <Content Include="fonts\file-word.svg" />
+    <Content Include="fonts\file.svg" />
+    <Content Include="fonts\flag.svg" />
+    <Content Include="fonts\flushed.svg" />
+    <Content Include="fonts\folder-open.svg" />
+    <Content Include="fonts\folder.svg" />
+    <Content Include="fonts\font-awesome-logo-full.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\frown-open.svg" />
+    <Content Include="fonts\frown.svg" />
+    <Content Include="fonts\futbol.svg" />
+    <Content Include="fonts\gem.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\grimace.svg" />
+    <Content Include="fonts\grin-alt.svg" />
+    <Content Include="fonts\grin-beam-sweat.svg" />
+    <Content Include="fonts\grin-beam.svg" />
+    <Content Include="fonts\grin-hearts.svg" />
+    <Content Include="fonts\grin-squint-tears.svg" />
+    <Content Include="fonts\grin-squint.svg" />
+    <Content Include="fonts\grin-stars.svg" />
+    <Content Include="fonts\grin-tears.svg" />
+    <Content Include="fonts\grin-tongue-squint.svg" />
+    <Content Include="fonts\grin-tongue-wink.svg" />
+    <Content Include="fonts\grin-tongue.svg" />
+    <Content Include="fonts\grin-wink.svg" />
+    <Content Include="fonts\grin.svg" />
+    <Content Include="fonts\hand-lizard.svg" />
+    <Content Include="fonts\hand-paper.svg" />
+    <Content Include="fonts\hand-peace.svg" />
+    <Content Include="fonts\hand-point-down.svg" />
+    <Content Include="fonts\hand-point-left.svg" />
+    <Content Include="fonts\hand-point-right.svg" />
+    <Content Include="fonts\hand-point-up.svg" />
+    <Content Include="fonts\hand-pointer.svg" />
+    <Content Include="fonts\hand-rock.svg" />
+    <Content Include="fonts\hand-scissors.svg" />
+    <Content Include="fonts\hand-spock.svg" />
+    <Content Include="fonts\handshake.svg" />
+    <Content Include="fonts\hdd.svg" />
+    <Content Include="fonts\heart.svg" />
+    <Content Include="fonts\hospital.svg" />
+    <Content Include="fonts\hourglass.svg" />
+    <Content Include="fonts\id-badge.svg" />
+    <Content Include="fonts\id-card.svg" />
+    <Content Include="fonts\image.svg" />
+    <Content Include="fonts\images.svg" />
+    <Content Include="fonts\keyboard.svg" />
+    <Content Include="fonts\kiss-beam.svg" />
+    <Content Include="fonts\kiss-wink-heart.svg" />
+    <Content Include="fonts\kiss.svg" />
+    <Content Include="fonts\laugh-beam.svg" />
+    <Content Include="fonts\laugh-squint.svg" />
+    <Content Include="fonts\laugh-wink.svg" />
+    <Content Include="fonts\laugh.svg" />
+    <Content Include="fonts\lemon.svg" />
+    <Content Include="fonts\life-ring.svg" />
+    <Content Include="fonts\lightbulb.svg" />
+    <Content Include="fonts\list-alt.svg" />
+    <Content Include="fonts\map.svg" />
+    <Content Include="fonts\meh-blank.svg" />
+    <Content Include="fonts\meh-rolling-eyes.svg" />
+    <Content Include="fonts\meh.svg" />
+    <Content Include="fonts\minus-square.svg" />
+    <Content Include="fonts\money-bill-alt.svg" />
+    <Content Include="fonts\moon.svg" />
+    <Content Include="fonts\newspaper.svg" />
+    <Content Include="fonts\object-group.svg" />
+    <Content Include="fonts\object-ungroup.svg" />
+    <Content Include="fonts\paper-plane.svg" />
+    <Content Include="fonts\pause-circle.svg" />
+    <Content Include="fonts\play-circle.svg" />
+    <Content Include="fonts\plus-square.svg" />
+    <Content Include="fonts\question-circle.svg" />
+    <Content Include="fonts\registered.svg" />
+    <Content Include="fonts\sad-cry.svg" />
+    <Content Include="fonts\sad-tear.svg" />
+    <Content Include="fonts\save.svg" />
+    <Content Include="fonts\share-square.svg" />
+    <Content Include="fonts\smile-beam.svg" />
+    <Content Include="fonts\smile-wink.svg" />
+    <Content Include="fonts\smile.svg" />
+    <Content Include="fonts\snowflake.svg" />
+    <Content Include="fonts\square.svg" />
+    <Content Include="fonts\star-half.svg" />
+    <Content Include="fonts\star.svg" />
+    <Content Include="fonts\sticky-note.svg" />
+    <Content Include="fonts\stop-circle.svg" />
+    <Content Include="fonts\sun.svg" />
+    <Content Include="fonts\surprise.svg" />
+    <Content Include="fonts\thumbs-down.svg" />
+    <Content Include="fonts\thumbs-up.svg" />
+    <Content Include="fonts\times-circle.svg" />
+    <Content Include="fonts\tired.svg" />
+    <Content Include="fonts\trash-alt.svg" />
+    <Content Include="fonts\user-circle.svg" />
+    <Content Include="fonts\user.svg" />
+    <Content Include="fonts\window-close.svg" />
+    <Content Include="fonts\window-maximize.svg" />
+    <Content Include="fonts\window-minimize.svg" />
+    <Content Include="fonts\window-restore.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="imag\0.jpg" />
+    <Content Include="imag\1.jpg" />
+    <Content Include="imag\10.jpg" />
+    <Content Include="imag\2.jpg" />
+    <Content Include="imag\4.jpg" />
+    <Content Include="imag\5.jpg" />
+    <Content Include="imag\6.jpg" />
+    <Content Include="imag\7.jpg" />
+    <Content Include="imag\7amel.jpg" />
+    <Content Include="imag\8.jpg" />
+    <Content Include="imag\b.jpg" />
+    <Content Include="imag\d.jpeg" />
+    <Content Include="imag\d.jpg" />
+    <Content Include="imag\DR1.jpg" />
+    <Content Include="imag\DR2.jpg" />
+    <Content Include="imag\DR3.jpg" />
+    <Content Include="imag\DR4.jpg" />
+    <Content Include="imag\f.jpg" />
+    <Content Include="imag\face.jpg" />
+    <Content Include="imag\facebook.png" />
+    <Content Include="imag\g.jpg" />
+    <Content Include="imag\gg.jpg" />
+    <Content Include="imag\google.jpg" />
+    <Content Include="imag\grape.png" />
+    <Content Include="imag\hh.jpg" />
+    <Content Include="imag\iconfinder_fruiticons_buttons_grape_1844710.png" />
+    <Content Include="imag\iconfinder_restaurant_menu_93247.png" />
+    <Content Include="imag\in.jpg" />
+    <Content Include="imag\info 2.png" />
+    <Content Include="imag\info.png" />
+    <Content Include="imag\info3.png" />
+    <Content Include="imag\instgram.png" />
+    <Content Include="imag\lo.png" />
+    <Content Include="imag\log.png" />
+    <Content Include="imag\login.png" />
+    <Content Include="imag\login_image.png" />
+    <Content Include="imag\m.jpg" />
+    <Content Include="imag\man.jpg" />
+    <Content Include="imag\message.jpg" />
+    <Content Include="imag\mi5.png" />
+    <Content Include="imag\mo.jpg" />
+    <Content Include="imag\MobiriseSetup.exe" />
+    <Content Include="imag\n.jpg" />
+    <Content Include="imag\o.jpg" />
+    <Content Include="imag\pp.jpg" />
+    <Content Include="imag\s.jpg" />
+    <Content Include="imag\Signup-logotype-V1.png" />
+    <Content Include="imag\st.jpg" />
+    <Content Include="imag\stt.jpg" />
+    <Content Include="imag\twitter.jpg" />
+    <Content Include="imag\twitter.png" />
+    <Content Include="imag\w.jpg" />
+    <Content Include="imag\wifi.jpg" />
+    <Content Include="imag\z.jpg" />
+    <Content Include="Scripts\alert.js" />
+    <Content Include="Scripts\button.js" />
+    <Content Include="Scripts\carousel.js" />
+    <Content Include="Scripts\classie.js" />
+    <Content Include="Scripts\collapse.js" />
+    <Content Include="Scripts\dropdown.js" />
+    <Content Include="Scripts\easing.js" />
+    <Content Include="Scripts\index.js" />
+    <Content Include="Scripts\jeq.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery-3.1.0.js" />
+    <Content Include="Scripts\jquery-3.1.0.min.js" />
+    <Content Include="Scripts\jquery.zoomslider.min.js" />
+    <Content Include="Scripts\lightbox-plus-jquery.min.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\modal.js" />
+    <Content Include="Scripts\modernizr-2.6.2.min.js" />
+    <Content Include="Scripts\move-top.js" />
+    <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\numscroller-1.0.js" />
+    <Content Include="Scripts\popover.js" />
+    <Content Include="Scripts\scrollspy.js" />
+    <Content Include="Scripts\tab.js" />
+    <Content Include="Scripts\toast.js" />
+    <Content Include="Scripts\tooltip.js" />
+    <Content Include="Scripts\util.js" />
+    <Content Include="Scripts\wow.min.js" />
+    <Content Include="test.aspx" />
+    <Content Include="test.html" />
+    <Content Include="UserControls\AdminHeader.ascx" />
+    <Content Include="UserControls\FooterWebUserControl.ascx" />
+    <Content Include="UserControls\ScrollSlidWebUserControl.ascx" />
+    <Content Include="UserControls\UserHeader.ascx" />
+    <Content Include="Validation_JS.js" />
+    <Content Include="Main.aspx" />
+    <Content Include="Scripts\all.js" />
+    <Content Include="Scripts\all.min.js" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Content\bootstrap-grid.scss" />
+    <Content Include="Content\bootstrap-reboot.scss" />
+    <Content Include="Content\bootstrap.scss" />
+    <Content Include="Content\mixins\_alert.scss" />
+    <Content Include="Content\mixins\_background-variant.scss" />
+    <Content Include="Content\mixins\_badge.scss" />
+    <Content Include="Content\mixins\_border-radius.scss" />
+    <Content Include="Content\mixins\_box-shadow.scss" />
+    <Content Include="Content\mixins\_breakpoints.scss" />
+    <Content Include="Content\mixins\_buttons.scss" />
+    <Content Include="Content\mixins\_caret.scss" />
+    <Content Include="Content\mixins\_clearfix.scss" />
+    <Content Include="Content\mixins\_deprecate.scss" />
+    <Content Include="Content\mixins\_float.scss" />
+    <Content Include="Content\mixins\_forms.scss" />
+    <Content Include="Content\mixins\_gradients.scss" />
+    <Content Include="Content\mixins\_grid-framework.scss" />
+    <Content Include="Content\mixins\_grid.scss" />
+    <Content Include="Content\mixins\_hover.scss" />
+    <Content Include="Content\mixins\_image.scss" />
+    <Content Include="Content\mixins\_list-group.scss" />
+    <Content Include="Content\mixins\_lists.scss" />
+    <Content Include="Content\mixins\_nav-divider.scss" />
+    <Content Include="Content\mixins\_pagination.scss" />
+    <Content Include="Content\mixins\_reset-text.scss" />
+    <Content Include="Content\mixins\_resize.scss" />
+    <Content Include="Content\mixins\_screen-reader.scss" />
+    <Content Include="Content\mixins\_size.scss" />
+    <Content Include="Content\mixins\_table-row.scss" />
+    <Content Include="Content\mixins\_text-emphasis.scss" />
+    <Content Include="Content\mixins\_text-hide.scss" />
+    <Content Include="Content\mixins\_text-truncate.scss" />
+    <Content Include="Content\mixins\_transition.scss" />
+    <Content Include="Content\mixins\_visibility.scss" />
+    <Content Include="Content\utilities\_align.scss" />
+    <Content Include="Content\utilities\_background.scss" />
+    <Content Include="Content\utilities\_borders.scss" />
+    <Content Include="Content\utilities\_clearfix.scss" />
+    <Content Include="Content\utilities\_display.scss" />
+    <Content Include="Content\utilities\_embed.scss" />
+    <Content Include="Content\utilities\_flex.scss" />
+    <Content Include="Content\utilities\_float.scss" />
+    <Content Include="Content\utilities\_overflow.scss" />
+    <Content Include="Content\utilities\_position.scss" />
+    <Content Include="Content\utilities\_screenreaders.scss" />
+    <Content Include="Content\utilities\_shadows.scss" />
+    <Content Include="Content\utilities\_sizing.scss" />
+    <Content Include="Content\utilities\_spacing.scss" />
+    <Content Include="Content\utilities\_stretched-link.scss" />
+    <Content Include="Content\utilities\_text.scss" />
+    <Content Include="Content\utilities\_visibility.scss" />
+    <Content Include="Content\vendor\_rfs.scss" />
+    <Content Include="Content\_alert.scss" />
+    <Content Include="Content\_badge.scss" />
+    <Content Include="Content\_breadcrumb.scss" />
+    <Content Include="Content\_button-group.scss" />
+    <Content Include="Content\_buttons.scss" />
+    <Content Include="Content\_card.scss" />
+    <Content Include="Content\_carousel.scss" />
+    <Content Include="Content\_close.scss" />
+    <Content Include="Content\_code.scss" />
+    <Content Include="Content\_custom-forms.scss" />
+    <Content Include="Content\_dropdown.scss" />
+    <Content Include="Content\_forms.scss" />
+    <Content Include="Content\_functions.scss" />
+    <Content Include="Content\_grid.scss" />
+    <Content Include="Content\_images.scss" />
+    <Content Include="Content\_input-group.scss" />
+    <Content Include="Content\_jumbotron.scss" />
+    <Content Include="Content\_list-group.scss" />
+    <Content Include="Content\_media.scss" />
+    <Content Include="Content\_mixins.scss" />
+    <Content Include="Content\_modal.scss" />
+    <Content Include="Content\_nav.scss" />
+    <Content Include="Content\_pagination.scss" />
+    <Content Include="Content\_popover.scss" />
+    <Content Include="Content\_print.scss" />
+    <Content Include="Content\_progress.scss" />
+    <Content Include="Content\_reboot.scss" />
+    <Content Include="Content\_root.scss" />
+    <Content Include="Content\_spinners.scss" />
+    <Content Include="Content\_tables.scss" />
+    <Content Include="Content\_toasts.scss" />
+    <Content Include="Content\_tooltip.scss" />
+    <Content Include="Content\_transitions.scss" />
+    <Content Include="Content\_type.scss" />
+    <Content Include="Content\_utilities.scss" />
+    <Content Include="Content\_variables.scss" />
+    <Content Include="Scripts\alert.js.map" />
+    <Content Include="Scripts\button.js.map" />
+    <Content Include="Scripts\carousel.js.map" />
+    <Content Include="Scripts\collapse.js.map" />
+    <Content Include="Scripts\dropdown.js.map" />
+    <Content Include="Scripts\index.js.map" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\.DS_Store" />
+    <Content Include="Content\_site-navbar.scss" />
+    <Content Include="Content\_navbar.scss" />
+    <Content Include="images\Thumbs.db" />
+    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="imag\back.jpg" />
+    <Content Include="imag\banner.jpeg" />
+    <Content Include="imag\exp.png" />
+    <Content Include="imag\explode.jpg" />
+    <Content Include="imag\green.jpeg" />
+    <Content Include="imag\head.jpeg" />
+    <Content Include="imag\header.jpeg" />
+    <Content Include="imag\healthy.jpg" />
+    <Content Include="imag\hope.jpg" />
+    <Content Include="imag\item.jpeg" />
+    <Content Include="imag\item2.jpeg" />
+    <Content Include="imag\item3.jpeg" />
+    <Content Include="imag\item4.jpeg" />
+    <Content Include="imag\item5.jpeg" />
+    <Content Include="imag\item6.jpeg" />
+    <Content Include="imag\itm.jpeg" />
+    <Content Include="imag\light.jpeg" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\brands.js" />
+    <Content Include="Scripts\brands.min.js" />
+    <Content Include="Scripts\conflict-detection.js" />
+    <Content Include="Scripts\conflict-detection.min.js" />
+    <Content Include="Scripts\fontawesome.js" />
+    <Content Include="Scripts\fontawesome.min.js" />
+    <Content Include="Scripts\jquery.magnific-popup.js" />
+    <Content Include="imag\pattern2.png" />
+    <Content Include="imag\pexels-photo-845405.jpeg" />
+    <Content Include="imag\pip.jpg" />
+    <Content Include="imag\pop0.jpg" />
+    <Content Include="imag\subtle-gray-gradient-light-white-gradient.jpg" />
+    <Content Include="imag\sweat.jpg" />
+    <Content Include="imag\test.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="loginStyle.css" />
+    <Content Include="main.css" />
+    <Content Include="main.html" />
+    <Content Include="Pages\Meals.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.js" />
+    <Content Include="Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Notify.js" />
+    <Content Include="Scripts\regular.js" />
+    <Content Include="Scripts\regular.min.js" />
+    <Content Include="Scripts\solid.js" />
+    <Content Include="Scripts\solid.min.js" />
+    <Content Include="Scripts\v4-shims.js" />
+    <Content Include="Scripts\v4-shims.min.js" />
+    <Content Include="Scripts\WebForms\all.js" />
+    <Content Include="Scripts\WebForms\all.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\fontawesome.js" />
+    <Content Include="Scripts\WebForms\fontawesome.min.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="register_style.css" />
+    <Content Include="UserControls\AboutWebUserControl.ascx" />
+    <Content Include="UserControls\AddDietWebUserControl.ascx" />
+    <Content Include="UserControls\AddMealWebUserControl.ascx" />
+    <Content Include="UserControls\AboutTeam.ascx" />
+    <Content Include="UserControls\HeaderWebUserControl.ascx" />
+    <Content Include="UserControls\MenueWebUserControl.ascx" />
+    <Content Include="UserControls\RegisterWebUserControl.ascx" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutTeam.aspx.cs">
+      <DependentUpon>AboutTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutTeam.aspx.designer.cs">
+      <DependentUpon>AboutTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddDiet.aspx.cs">
+      <DependentUpon>AddDiet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddDiet.aspx.designer.cs">
+      <DependentUpon>AddDiet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddMeal.aspx.cs">
+      <DependentUpon>AddMeal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddMeal.aspx.designer.cs">
+      <DependentUpon>AddMeal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Meanue.aspx.cs">
+      <DependentUpon>Meanue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Meanue.aspx.designer.cs">
+      <DependentUpon>Meanue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Meals.aspx.cs">
+      <DependentUpon>Meals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Meals.aspx.designer.cs">
+      <DependentUpon>Meals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registeration.aspx.cs">
+      <DependentUpon>Registeration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registeration.aspx.designer.cs">
+      <DependentUpon>Registeration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AboutWebUserControl.ascx.cs">
+      <DependentUpon>AboutWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AboutWebUserControl.ascx.designer.cs">
+      <DependentUpon>AboutWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddDietWebUserControl.ascx.cs">
+      <DependentUpon>AddDietWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AddDietWebUserControl.ascx.designer.cs">
+      <DependentUpon>AddDietWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AddMealWebUserControl.ascx.cs">
+      <DependentUpon>AddMealWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AddMealWebUserControl.ascx.designer.cs">
+      <DependentUpon>AddMealWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AboutTeam.ascx.cs">
+      <DependentUpon>AboutTeam.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AboutTeam.ascx.designer.cs">
+      <DependentUpon>AboutTeam.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AdminHeader.ascx.cs">
+      <DependentUpon>AdminHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\AdminHeader.ascx.designer.cs">
+      <DependentUpon>AdminHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HeaderWebUserControl.ascx.cs">
+      <DependentUpon>HeaderWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\HeaderWebUserControl.ascx.designer.cs">
+      <DependentUpon>HeaderWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MenueWebUserControl.ascx.cs">
+      <DependentUpon>MenueWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\MenueWebUserControl.ascx.designer.cs">
+      <DependentUpon>MenueWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RegisterWebUserControl.ascx.cs">
+      <DependentUpon>RegisterWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\RegisterWebUserControl.ascx.designer.cs">
+      <DependentUpon>RegisterWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FooterWebUserControl.ascx.cs">
+      <DependentUpon>FooterWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\FooterWebUserControl.ascx.designer.cs">
+      <DependentUpon>FooterWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ScrollSlidWebUserControl.ascx.cs">
+      <DependentUpon>ScrollSlidWebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ScrollSlidWebUserControl.ascx.designer.cs">
+      <DependentUpon>ScrollSlidWebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserHeader.ascx.cs">
+      <DependentUpon>UserHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\UserHeader.ascx.designer.cs">
+      <DependentUpon>UserHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\modal.js.map" />
+    <Content Include="Scripts\popover.js.map" />
+    <Content Include="Scripts\scrollspy.js.map" />
+    <Content Include="Scripts\tab.js.map" />
+    <Content Include="Scripts\toast.js.map" />
+    <Content Include="Scripts\tooltip.js.map" />
+    <Content Include="Scripts\util.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HealthyANDTastyBusiness\HealthyANDTastyBusiness.csproj">
+      <Project>{90680f5d-0905-4288-a124-31ab4187ab12}</Project>
+      <Name>HealthyANDTastyBusiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HealthyANDTastyDAL\HealthyANDTastyDAL.csproj">
+      <Project>{734c343c-969f-49a5-b2b7-1177ec6d9cea}</Project>
+      <Name>HealthyANDTastyDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HealthyANDTastyModel\HealthyANDTastyModel.csproj">
+      <Project>{c49d09c8-3458-4a45-81f3-d097bff13bae}</Project>
+      <Name>HealthyANDTastyModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2824</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2818/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

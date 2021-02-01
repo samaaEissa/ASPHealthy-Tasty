@@ -1,0 +1,26 @@
+﻿@model List<HealthyANDTastyModel.Diet>
+@{
+    ViewBag.Title = "Diet";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    @foreach (var item in Model)
+    {<table>
+    <tr>
+     <td>@item.DietName</td>   
+        <td>@item.fatsPercent</td>   
+        <td>@item.mineralsPercent</td>   
+        <td>@item.vitaminPercent</td>
+    <td>@Html.ActionLink("Delete", "Delete",new { DietID =item.DietID})</td>     
+    </tr></table>
+   
+    }
+    <hr />
+   
+</div>
+<div>
+   <p>@Html.ActionLink("Create", "Create")</p>
+</div>

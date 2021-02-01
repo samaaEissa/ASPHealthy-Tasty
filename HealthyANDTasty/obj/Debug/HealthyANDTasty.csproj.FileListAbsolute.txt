@@ -1,0 +1,182 @@
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\ApplicationInsights.config
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\csc.exe
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\vbc.exe
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTasty.dll.config
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTasty.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTasty.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Antlr3.Runtime.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.SqlServer.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyBusiness.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyDAL.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyModel.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.Web.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Newtonsoft.Json.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Owin.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Helpers.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Mvc.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Optimization.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Razor.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Razor.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\WebGrease.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyBusiness.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyDAL.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyModel.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.Web.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Helpers.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Mvc.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Optimization.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Razor.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Razor.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Antlr3.Runtime.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Newtonsoft.Json.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.SqlServer.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.csprojResolveAssemblyReference.cache
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\ApplicationInsights.config
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\csc.exe
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\System.Collections.Immutable.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\vbc.exe
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\VBCSCompiler.exe
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\roslyn\VBCSCompiler.exe.config
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTasty.dll.config
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTasty.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTasty.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Antlr3.Runtime.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.SqlServer.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyBusiness.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyDAL.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyModel.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.DependencyCollector.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.Web.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.WindowsServer.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.ApplicationInsights.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Google.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Newtonsoft.Json.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Owin.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Helpers.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Mvc.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Optimization.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Razor.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Razor.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\WebGrease.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyBusiness.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyDAL.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyModel.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\HealthyANDTastyModel.dll.config
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.DependencyCollector.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.Web.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AI.WindowsServer.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.ApplicationInsights.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Helpers.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Mvc.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Optimization.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.Razor.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Deployment.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\System.Web.WebPages.Razor.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Antlr3.Runtime.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Newtonsoft.Json.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\EntityFramework.SqlServer.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Google.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.csprojAssemblyReference.cache
+E:\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.csproj.CoreCompileInputs.cache
+E:\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.csproj.CopyComplete
+E:\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.dll
+E:\Projects\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.csprojResolveAssemblyReference.cache
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTasty\obj\Debug\HealthyANDTasty.pdb

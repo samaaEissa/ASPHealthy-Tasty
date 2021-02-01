@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HealthyTastyTESTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HealthyANDTastyEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admins" EntityType="HealthyTastyTESTModel.Admin" />
+    <EntitySet Name="Bells" EntityType="HealthyTastyTESTModel.Bell" />
+    <EntitySet Name="Diets" EntityType="HealthyTastyTESTModel.Diet" />
+    <EntitySet Name="Meals" EntityType="HealthyTastyTESTModel.Meal" />
+    <EntitySet Name="Orders" EntityType="HealthyTastyTESTModel.Order" />
+    <EntitySet Name="sysdiagrams" EntityType="HealthyTastyTESTModel.sysdiagram" />
+    <EntitySet Name="Users" EntityType="HealthyTastyTESTModel.User" />
+    <AssociationSet Name="FK_Bell_Order" Association="HealthyTastyTESTModel.FK_Bell_Order">
+      <End Role="Order" EntitySet="Orders" />
+      <End Role="Bell" EntitySet="Bells" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Meal_Diet" Association="HealthyTastyTESTModel.FK_Meal_Diet">
+      <End Role="Diet" EntitySet="Diets" />
+      <End Role="Meal" EntitySet="Meals" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Diet" Association="HealthyTastyTESTModel.FK_Users_Diet">
+      <End Role="Diet" EntitySet="Diets" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Users" Association="HealthyTastyTESTModel.FK_Order_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Order" EntitySet="Orders" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Bell">
+    <Key>
+      <PropertyRef Name="BellID" />
+    </Key>
+    <Property Name="BellID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="totalcost" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="HealthyTastyTESTModel.FK_Bell_Order" FromRole="Bell" ToRole="Order" />
+  </EntityType>
+  <EntityType Name="Diet">
+    <Key>
+      <PropertyRef Name="DietID" />
+    </Key>
+    <Property Name="DietID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DietName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="carbsPercent" Type="Int32" Nullable="false" />
+    <Property Name="ProtienPercent" Type="Int32" Nullable="false" />
+    <Property Name="vitaminPercent" Type="Int32" Nullable="false" />
+    <Property Name="fatsPercent" Type="Int32" />
+    <Property Name="mineralsPercent" Type="Int32" Nullable="false" />
+    <Property Name="DietDescription" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Meals" Relationship="HealthyTastyTESTModel.FK_Meal_Diet" FromRole="Diet" ToRole="Meal" />
+    <NavigationProperty Name="Users" Relationship="HealthyTastyTESTModel.FK_Users_Diet" FromRole="Diet" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Meal">
+    <Key>
+      <PropertyRef Name="mealID" />
+    </Key>
+    <Property Name="mealID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Mname" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Double" Nullable="false" />
+    <Property Name="ingrdiants" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DietID" Type="Int32" Nullable="false" />
+    <Property Name="image" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Diet" Relationship="HealthyTastyTESTModel.FK_Meal_Diet" FromRole="Meal" ToRole="Diet" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="mealID" Type="Int32" Nullable="false" />
+    <Property Name="state" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="comment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bell" Relationship="HealthyTastyTESTModel.FK_Bell_Order" FromRole="Order" ToRole="Bell" />
+    <NavigationProperty Name="User" Relationship="HealthyTastyTESTModel.FK_Order_Users" FromRole="Order" ToRole="User" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="customerID" />
+    </Key>
+    <Property Name="customerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fullName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="age" Type="Int32" />
+    <Property Name="address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="e_mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="weight" Type="Double" />
+    <Property Name="hight" Type="Double" />
+    <Property Name="medicalState" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FreePoints" Type="Int32" />
+    <Property Name="creditLimit" Type="Decimal" Precision="19" Scale="0" />
+    <Property Name="DietID" Type="Int32" Nullable="false" />
+    <Property Name="free_meals" Type="Int32" />
+    <NavigationProperty Name="Diet" Relationship="HealthyTastyTESTModel.FK_Users_Diet" FromRole="User" ToRole="Diet" />
+    <NavigationProperty Name="Orders" Relationship="HealthyTastyTESTModel.FK_Order_Users" FromRole="User" ToRole="Order" />
+    <Property Name="password" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Bell_Order">
+    <End Type="HealthyTastyTESTModel.Order" Role="Order" Multiplicity="1" />
+    <End Type="HealthyTastyTESTModel.Bell" Role="Bell" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Bell">
+        <PropertyRef Name="BellID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Meal_Diet">
+    <End Type="HealthyTastyTESTModel.Diet" Role="Diet" Multiplicity="1" />
+    <End Type="HealthyTastyTESTModel.Meal" Role="Meal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Diet">
+        <PropertyRef Name="DietID" />
+      </Principal>
+      <Dependent Role="Meal">
+        <PropertyRef Name="DietID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Diet">
+    <End Type="HealthyTastyTESTModel.Diet" Role="Diet" Multiplicity="1" />
+    <End Type="HealthyTastyTESTModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Diet">
+        <PropertyRef Name="DietID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="DietID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Users">
+    <End Type="HealthyTastyTESTModel.User" Role="User" Multiplicity="1" />
+    <End Type="HealthyTastyTESTModel.Order" Role="Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="customerID" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

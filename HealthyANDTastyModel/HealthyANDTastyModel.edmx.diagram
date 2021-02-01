@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4700660ab5ef4908a8694d7e58f94008" Name="Diagram1">
+        <EntityTypeShape EntityType="HealthyTastyTESTModel.Admin" Width="1.5" PointX="5.75" PointY="5.75" />
+        <EntityTypeShape EntityType="HealthyTastyTESTModel.Bell" Width="1.5" PointX="7.5" PointY="2.125" />
+        <EntityTypeShape EntityType="HealthyTastyTESTModel.Diet" Width="1.5" PointX="0.75" PointY="3.375" />
+        <EntityTypeShape EntityType="HealthyTastyTESTModel.Meal" Width="1.5" PointX="3" PointY="5.875" />
+        <EntityTypeShape EntityType="HealthyTastyTESTModel.Order" Width="1.5" PointX="5.25" PointY="2" />
+        <EntityTypeShape EntityType="HealthyTastyTESTModel.sysdiagram" Width="1.5" PointX="7.75" PointY="5.75" />
+        <EntityTypeShape EntityType="HealthyTastyTESTModel.User" Width="1.5" PointX="3" PointY="1.125" />
+        <AssociationConnector Association="HealthyTastyTESTModel.FK_Bell_Order" />
+        <AssociationConnector Association="HealthyTastyTESTModel.FK_Meal_Diet" />
+        <AssociationConnector Association="HealthyTastyTESTModel.FK_Users_Diet" />
+        <AssociationConnector Association="HealthyTastyTESTModel.FK_Order_Users" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

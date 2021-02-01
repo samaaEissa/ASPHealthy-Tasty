@@ -1,0 +1,42 @@
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csprojResolveAssemblyReference.cache
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.dll.config
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.xml
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csprojAssemblyReference.cache
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csproj.CoreCompileInputs.cache
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csproj.CopyComplete
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.dll.config
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.xml
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csprojAssemblyReference.cache
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csproj.CoreCompileInputs.cache
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csproj.CopyComplete
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyDAL.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\HealthyANDTastyModel.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\bin\Debug\EntityFramework.xml
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.csprojResolveAssemblyReference.cache
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyDAL\obj\Debug\HealthyANDTastyDAL.pdb

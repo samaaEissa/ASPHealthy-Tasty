@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HealthyTastyTESTModelStoreContainer" CdmEntityContainer="HealthyANDTastyEntities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="HealthyTastyTESTModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bells">
+      <EntityTypeMapping TypeName="HealthyTastyTESTModel.Bell">
+        <MappingFragment StoreEntitySet="Bell">
+          <ScalarProperty Name="totalcost" ColumnName="totalcost" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="BellID" ColumnName="BellID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Diets">
+      <EntityTypeMapping TypeName="HealthyTastyTESTModel.Diet">
+        <MappingFragment StoreEntitySet="Diet">
+          <ScalarProperty Name="DietDescription" ColumnName="DietDescription" />
+          <ScalarProperty Name="mineralsPercent" ColumnName="mineralsPercent" />
+          <ScalarProperty Name="fatsPercent" ColumnName="fatsPercent" />
+          <ScalarProperty Name="vitaminPercent" ColumnName="vitaminPercent" />
+          <ScalarProperty Name="ProtienPercent" ColumnName="ProtienPercent" />
+          <ScalarProperty Name="carbsPercent" ColumnName="carbsPercent" />
+          <ScalarProperty Name="DietName" ColumnName="DietName" />
+          <ScalarProperty Name="DietID" ColumnName="DietID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meals">
+      <EntityTypeMapping TypeName="HealthyTastyTESTModel.Meal">
+        <MappingFragment StoreEntitySet="Meal">
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="DietID" ColumnName="DietID" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="ingrdiants" ColumnName="ingrdiants" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="Mname" ColumnName="Mname" />
+          <ScalarProperty Name="mealID" ColumnName="mealID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="HealthyTastyTESTModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="comment" ColumnName="comment" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="mealID" ColumnName="mealID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="HealthyTastyTESTModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="HealthyTastyTESTModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="free_meals" ColumnName="free_meals" />
+          <ScalarProperty Name="DietID" ColumnName="DietID" />
+          <ScalarProperty Name="creditLimit" ColumnName="creditLimit" />
+          <ScalarProperty Name="FreePoints" ColumnName="FreePoints" />
+          <ScalarProperty Name="medicalState" ColumnName="medicalState" />
+          <ScalarProperty Name="hight" ColumnName="hight" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="e_mail" ColumnName="e_mail" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="fullName" ColumnName="fullName" />
+          <ScalarProperty Name="customerID" ColumnName="customerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<HealthyANDTastyModel.Admin>
+@{
+    ViewBag.Title = "Login";
+}
+
+@using (Html.BeginForm(FormMethod.Post))
+ <html>
+    <head>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>@Html.LabelFor(Admin => admin.UserName)</td>
+                <td>@Html.TextBoxFor(a => a.UserName)</td>
+                <td>@Html.ValidationMessageFor(a => a.UserName)</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.Password)
+                </td>
+                <td>
+                    @Html.PasswordFor(a => a.Password)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(a => a.Password)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login" />
+                </td>
+                <td></td>
+            </tr>
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,43 @@
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll.config
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.pdb
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.dll
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.xml
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.csprojResolveAssemblyReference.cache
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.dll
+C:\Users\Hp\Documents\Visual Studio 2015\Projects\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll.config
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.xml
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.csproj.CoreCompileInputs.cache
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.csproj.CopyComplete
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll.config
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.xml
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.xml
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.csprojAssemblyReference.cache
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.csproj.CoreCompileInputs.cache
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.csproj.CopyComplete
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll.config
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\HealthyANDTastyModel.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.xml
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.csprojResolveAssemblyReference.cache
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyModel\obj\Debug\HealthyANDTastyModel.pdb

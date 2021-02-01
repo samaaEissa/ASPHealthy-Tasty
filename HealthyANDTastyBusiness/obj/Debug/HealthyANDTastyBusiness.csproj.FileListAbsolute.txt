@@ -1,0 +1,50 @@
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.pdb
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.xml
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csprojResolveAssemblyReference.cache
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.dll
+C:\Users\Hp\documents\visual studio 2015\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.pdb
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.dll.config
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.xml
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csprojAssemblyReference.cache
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csproj.CoreCompileInputs.cache
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csproj.CopyComplete
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.dll
+E:\Projects\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.pdb
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.dll.config
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.xml
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csprojAssemblyReference.cache
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csproj.CoreCompileInputs.cache
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csproj.CopyComplete
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.dll
+G:\Faculty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyBusiness.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyDAL.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\HealthyANDTastyModel.pdb
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\bin\Debug\EntityFramework.xml
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.csprojResolveAssemblyReference.cache
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.dll
+D:\My code\C# code\HealthyANDTasty\HealthyANDTasty\HealthyANDTastyBusiness\obj\Debug\HealthyANDTastyBusiness.pdb
